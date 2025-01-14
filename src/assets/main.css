@@ -4,7 +4,7 @@
 
 @layer components {
     .btn {
-        @apply inline-block px-8 py-4 text-xl text-white transition-colors bg-gray-600 rounded-lg hover:bg-amber-400;
+        @apply inline-block px-6 py-3 text-base text-white transition-colors bg-gray-600 rounded-lg sm:text-xl sm:px-8 sm:py-4 hover:bg-amber-400;
     }
 
     .btn-sm{

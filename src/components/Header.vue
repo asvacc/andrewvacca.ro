@@ -5,7 +5,7 @@ import MobileMenu from '../components/MobileMenu.vue';
 </script>
 
 <template>
-    <header class="mt-16 mb-20 sm:mt-24 md:mb-16">
+    <header class="mt-16 mb-14 sm:mb-20 sm:mt-24 md:mb-16">
         <Nav>
             <NavLinks class="hidden sm:space-x-3 md:space-x-12 sm:flex" />
             <MobileMenu />

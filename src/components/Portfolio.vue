@@ -62,7 +62,7 @@ async function getProjects() {
                 <div class="flex mt-6 space-x-2">
                     <input type="text" class="px-4 py-3 text-base border-2 border-gray-700 rounded-lg"
                         v-model="password" />
-                    <button type="submit" class="btn btn-sm">
+                    <button type="submit" class="btn btn-sm min-w-[4.5rem] flex items-center justify-center">
                         <span v-show="!loading">Enter</span>
                         <svg v-show="loading" width="24" height="24" stroke="currentColor" class="text-white size-4"
                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

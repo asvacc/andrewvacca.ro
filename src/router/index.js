@@ -5,6 +5,9 @@ import PortfolioView from '../views/PortfolioView.vue'
 import ResumeView from '../views/ResumeView.vue'
 
 const router = createRouter({
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0 }
+  },
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
