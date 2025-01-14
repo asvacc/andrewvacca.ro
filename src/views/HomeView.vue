@@ -1,16 +1,13 @@
-<script setup>
-</script>
-
 <template>
   <div class="container">
     <div class="grid items-center sm:gap-12 lg:gap-16 md:grid-cols-2 ">
-      <div>
-        <h1 class="text-lg sm:text-3xl lg:text-4xl">Andrew Vaccaro, Software Engineer</h1>
-        <p class="mt-6 text-5xl leading-[1] sm:leading-tight lg:leading-tight sm:text-6xl sm:mt-8 lg:mt-16 lg:text-7xl"><span
-            class="text-amber-400">Software
-            engineer</span> with an eye for
-          good design.</p>
-      </div>
+      <Transition appear>
+        <div>
+            <h1 class="text-lg sm:text-3xl lg:text-4xl">Andrew Vaccaro, Software Engineer</h1>
+            <p class="mt-6 text-5xl leading-[1] sm:leading-tight lg:leading-tight sm:text-6xl sm:mt-8 lg:mt-16 lg:text-7xl"><span
+                class="text-amber-400">Software Engineer</span> with an eye for design.</p>
+        </div>
+      </Transition>
       <img class="mt-8 sm:mt-0" src="https://picsum.photos/1200" />
     </div>
 

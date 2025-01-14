@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue'
 import Nav from '../components/Navigation.vue';
 import NavLinks from '../components/NavLinks.vue';
 import MobileMenu from '../components/MobileMenu.vue';
