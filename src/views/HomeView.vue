@@ -9,7 +9,7 @@
             <span class="text-amber-400">Software Engineer</span> with an eye for design.</p>
         </div>
       </Transition>
-      <div class="md:min-h-[31.25rem] flex flex-col items-start justify-center">
+      <div class="md:min-h-[31.25rem] flex flex-col md:items-end items-center justify-center">
         <img class="mt-8 sm:mt-0" src="/me.webp" />
       </div>
     </div>
