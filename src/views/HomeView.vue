@@ -10,7 +10,7 @@
         </div>
       </Transition>
       <div class="md:min-h-[31.25rem] flex flex-col md:items-end items-center justify-center">
-        <img class="mt-8 sm:mt-0" src="/me.webp" />
+        <img class="mt-8 sm:mt-0" title="Me" alt="Me" src="/me.svg" />
       </div>
     </div>
 
