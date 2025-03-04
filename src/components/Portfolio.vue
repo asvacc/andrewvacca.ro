@@ -1,8 +1,10 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import { useProjectsStore } from '@/stores/projectsStore';
+import { useProjectsStore } from '@/stores/projectsStore'
 import Project from './Project.vue'
+import { useRoute } from 'vue-router'
 
+const route = useRoute()
 const store = useProjectsStore()
 const apiEndpoint = 'https://3uoijyddwlqllx6lrfnrappxhe0jisnv.lambda-url.us-east-2.on.aws'
 const projects = ref([])
@@ -10,13 +12,19 @@ const loading = ref(false)
 const error = ref('')
 const password = ref('')
 
-onMounted(() => {
+onMounted(async () => {
     if(store.isExpired)
     {
         store.$reset()
-    }
+    } 
 
+    password.value = route.query.password;
     projects.value = store.projects;
+
+    if ((projects.value == '' || projects.value.length < 1) && password.value != '')
+    {
+        await submit();
+    }
 })
 
 async function submit(event) {
