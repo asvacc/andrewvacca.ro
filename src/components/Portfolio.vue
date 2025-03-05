@@ -21,7 +21,7 @@ onMounted(async () => {
     password.value = route.query.password;
     projects.value = store.projects;
 
-    if ((projects.value == '' || projects.value.length < 1) && password.value != '')
+    if ((projects.value == '' || projects.value.length < 1) && password.value)
     {
         await submit();
     }
