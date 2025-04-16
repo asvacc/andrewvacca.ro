@@ -27,11 +27,6 @@ const router = createRouter({
       name: 'portfolio',
       component: PortfolioView
     },
-    {
-      path: '/resume',
-      name: 'resume',
-      component: ResumeView
-    }
   ],
 })
 
