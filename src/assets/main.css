@@ -4,7 +4,23 @@
 
 @layer components {
     .btn {
-        @apply inline-block px-6 py-3 text-base text-white transition-colors bg-gray-600 rounded-lg sm:text-xl sm:px-8 sm:py-4 hover:bg-red-400;
+        @apply relative z-[1] inline-block px-6 py-3 text-base text-white transition-colors rounded-lg sm:text-xl sm:px-8 sm:py-4;
+        &:before, &:after{
+            content: ' ';
+            @apply absolute inset-0 z-10 transition-opacity rounded-lg size-full;
+        }
+
+        &:after{
+            @apply bg-gradient-to-r from-red-400 to-orange-400 z-[-2];
+        }
+
+        &:before{
+            @apply bg-gray-600 z-[-1];
+        }
+
+        &:hover:before{
+            opacity:0;
+        }
     }
 
     .btn-sm{
