@@ -40,6 +40,12 @@ function toggle() {
                         <li>
                             <RouterLink @click="toggle" activeClass="border-b-2 border-b-black"
                                 class="block transition-colors border-b-2 border-transparent hover:border-b-black"
+                                to="/blog">
+                                Blog</RouterLink>
+                        </li>
+                        <li>
+                            <RouterLink @click="toggle" activeClass="border-b-2 border-b-black"
+                                class="block transition-colors border-b-2 border-transparent hover:border-b-black"
                                 to="/contact">
                                 Contact</RouterLink>
                         </li>

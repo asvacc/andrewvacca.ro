@@ -18,14 +18,9 @@ export default {
     fontFamily: {
       sans: ['DM Sans', 'sans-serif'],
     },
-    extend: {
-      colors: {
-        blue: {
-          DEFAULT: "#0A21C0"
-        }
-      }
-    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
 

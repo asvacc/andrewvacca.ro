@@ -4,6 +4,9 @@ const HomeView = () => import('../views/HomeView.vue')
 const ContactView = () => import('../views/ContactView.vue')
 const PortfolioView = () => import('../views/PortfolioView.vue')
 const ResumeView = () => import('../views/ResumeView.vue')
+const BlogIndex = () => import('../views/BlogIndex.vue')
+const BlogPost = () => import('../views/BlogPost.vue');
+
 
 
 const router = createRouter({
@@ -27,6 +30,16 @@ const router = createRouter({
       name: 'portfolio',
       component: PortfolioView
     },
+    {
+      path: '/blog',
+      name: 'blog',
+      component: BlogIndex
+    },
+    {
+      path: '/blog/:slug',
+      props: true, 
+      component: BlogPost
+    }
   ],
 })
 

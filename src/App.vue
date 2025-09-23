@@ -2,17 +2,19 @@
 import { RouterView } from 'vue-router'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import { Analytics } from '@vercel/analytics/vue';
 
 </script>
 
 <template>
+  <Analytics />
   <Header />
   <main>
     <router-view v-slot="{ Component }">
-        <component :is="Component" />
+      <component :is="Component" />
     </router-view>
   </main>
-  <Footer/>
+  <Footer />
 </template>
 
 <style>

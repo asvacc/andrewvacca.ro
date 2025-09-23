@@ -26,4 +26,14 @@
     .btn-sm{
         @apply px-4 py-3 text-base;
     }
+
+
+    code{
+        @apply p-1 bg-gray-200;
+        font-family: monospace; 
+        font-weight:400;
+        &::before,&::after{
+            content: '' !important;
+        }
+    }
 }
