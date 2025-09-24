@@ -1,12 +1,12 @@
 {
     "rewrites": [
+                {
+                    "source": "/public/static/blogs/:path*",
+                    "destination": "/static/blogs/:path*"
+                },
         {
             "source": "/(.*)",
             "destination": "/"
-        },
-        {
-            "source": "/public/static/blogs/:path*",
-            "destination": "/static/blogs/:path*"
         }
     ]
 }
