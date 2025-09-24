@@ -68,7 +68,7 @@ async function getProjects() {
                 class="flex flex-col items-center text-xl">
                 <label>Please enter password:</label>
                 <div class="flex mt-6 space-x-2">
-                    <input type="text" class="px-4 py-3 text-base border-2 border-gray-700 rounded-lg"
+                    <input type="text" class="px-4 py-3 text-base border-2 border-gray-700"
                         v-model="password" />
                     <button type="submit" class="btn btn-sm min-w-[4.5rem] flex items-center justify-center">
                         <span v-show="!loading">Enter</span>
