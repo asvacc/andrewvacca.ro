@@ -9,9 +9,9 @@
             content: ' ';
             @apply absolute inset-0 z-10 transition-opacity rounded-lg size-full;
         }
-
+        
         &:after{
-            @apply bg-gradient-to-r from-red-400 to-orange-400 z-[-2];
+            @apply bg-gradient-to-r from-[#4568DC] to-[#B06AB3] z-[-2];
         }
 
         &:before{

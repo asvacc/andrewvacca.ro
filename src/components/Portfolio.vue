@@ -66,7 +66,7 @@ async function getProjects() {
         <div>
             <form v-if="projects == null || projects.length < 1" @submit.prevent="submit"
                 class="flex flex-col items-center text-xl">
-                <label>Please enter your password to access:</label>
+                <label>Please enter password:</label>
                 <div class="flex mt-6 space-x-2">
                     <input type="text" class="px-4 py-3 text-base border-2 border-gray-700 rounded-lg"
                         v-model="password" />

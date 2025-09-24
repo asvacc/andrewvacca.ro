@@ -6,7 +6,7 @@
           <h1 class="text-lg sm:text-3xl lg:text-4xl">Andrew Vaccaro, Software Engineer</h1>
           <p
             class="mt-6 text-5xl leading-[1] sm:leading-tight lg:leading-tight sm:text-6xl sm:mt-8 lg:mt-16 lg:text-7xl">
-            <span class="text-transparent bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text">Software
+            <span class="text-transparent bg-gradient-to-r from-[#4568DC] to-[#B06AB3] bg-clip-text">Software
               Engineer</span> with an eye for design.
           </p>
         </div>
