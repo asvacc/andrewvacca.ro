@@ -6,7 +6,7 @@ import { useRoute } from 'vue-router'
 
 const route = useRoute()
 const store = useProjectsStore()
-const apiEndpoint = 'https://3uoijyddwlqllx6lrfnrappxhe0jisnv.lambda-url.us-east-2.on.aws'
+const apiEndpoint = 'https://andrewvaccaro-projects.asvxyz.workers.dev/'
 const projects = ref([])
 const loading = ref(false)
 const error = ref('')
