@@ -15,7 +15,7 @@ defineProps({
                 <p v-if="project.technology" class="mt-4 text-xs font-bold uppercase">Technology used:</p>
                 <ul v-if="project.technology" class="flex flex-wrap gap-2 mt-1">
                     <li v-for="(item, index) in project.technology" :key="item.id"
-                        class="inline-block px-2 py-1 text-white text-xs font-bold uppercase bg-[#4568DC]">{{
+                        class="inline-block px-2 py-1 text-white text-xs font-bold uppercase bg-[#f40752]">{{
                         item }}
                     </li>
                 </ul>
