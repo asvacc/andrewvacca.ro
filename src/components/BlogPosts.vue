@@ -22,7 +22,7 @@ const entries = ref(BlogEntries)
                 class="relative text-white size-6 z-[1]">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
             </svg>
-            <div class="absolute size-full bg-gradient-to-br from-[#4568DC] to-[#B06AB3] opacity-0 group-hover:opacity-100 transition-opacity"></div> 
+            <div class="absolute size-full bg-gradient-to-br from-[#f40752] to-[#f9ab8f] opacity-0 group-hover:opacity-100 transition-opacity"></div> 
         </div>
     </RouterLink>
 </template>

@@ -11,14 +11,14 @@ function toggle() {
 
 <template>
     <div class="block sm:hidden">
-        <svg @click="toggle" class="block transition-colors cursor-pointer sm:hidden size-8 hover:text-[#4568DC]"
+        <svg @click="toggle" class="block transition-colors cursor-pointer sm:hidden size-8 hover:text-[#f40752]"
             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
         </svg>
         <Teleport to="body">
             <Transition>
                 <div v-if="menuToggle"
-                    class="fixed inset-0 top-0 z-20 flex flex-col items-center justify-center w-full h-full bg-gradient-to-br from-[#4568DC] to-[#B06AB3] sm:hidden sm:fixed">
+                    class="fixed inset-0 top-0 z-20 flex flex-col items-center justify-center w-full h-full bg-gradient-to-br from-[#f40752] to-[#f9ab8f] sm:hidden sm:fixed">
                     <svg @click="toggle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                         stroke-width="1.5" stroke="currentColor"
                         class="fixed block text-white transition-transform cursor-pointer top-12 right-12 size-12 hover:rotate-90">

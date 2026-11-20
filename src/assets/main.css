@@ -11,7 +11,7 @@
         }
         
         &:after{
-            @apply bg-gradient-to-r from-[#4568DC] to-[#B06AB3] z-[-2];
+            @apply bg-gradient-to-r from-[#f40752] to-[#f9ab8f] z-[-2];
         }
 
         &:before{
